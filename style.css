@@ -1,0 +1,116 @@
+/*=======================main css=========================*/
+.container{
+    margin-bottom: 90px;
+}
+/*=======================carosol=========================*/
+.main_carosol_bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.banner_price{
+    color: #FF136F;
+}
+.banner_button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+/*===============product section===============*/
+
+.product_a{
+    background-image: linear-gradient(to right, #DB811B 0%, #DFB305 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.product_a:hover{
+    background-image: linear-gradient(to left, #DB811B 0%, #DFB305 100%);
+}
+.product_b{
+    background-image: linear-gradient(to right, #E20D5C 0%, #E23C80 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.product_b:hover{
+    background-image: linear-gradient(to left, #E20D5C 0%, #E23C80 100%);
+}
+.product_c{
+    background-image: linear-gradient(to right, #346BF7 0%, #3513F3 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.product_c:hover{
+    background-image: linear-gradient(to left, #346BF7 0%, #3513F3 100%);
+}
+
+.product_a img{
+    width: 100px;
+}
+.product_b img{
+    width: 100px;
+}
+.product_c img{
+    width: 100px;
+}
+
+/* =====================shoe_section====================== */
+
+.shoe_section .card{
+    border: none;
+    box-shadow: 10px 10px 20px lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.shoe_section .card-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.shoe_section h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* ===========================bag_section============================== */
+
+.bag_section .card{
+    border: none;
+    box-shadow: 10px 10px 20px lightgrey;
+    border-radius: 10px;
+}
+.bag_section h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.bag_section .card-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* ==============================contact_section===================================== */
+
+.contact_section{
+    background-color: #fceae8;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* =======================================Footer============================================ */
+footer{
+    padding: 10px 0;
+    background-color: rgba(0,0,0,.03);
+}
